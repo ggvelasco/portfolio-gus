@@ -11,7 +11,7 @@
 
 body {
   font-family: Poppins, sans-serif;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
   background-attachment: fixed;
 }
 
@@ -150,7 +150,7 @@ a:hover {
 section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 10rem;
+  margin: 0 14rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -242,16 +242,188 @@ section {
 }
 
 .btn-color-1:hover {
-    background: rgb(0,0,0);
+  background: rgb(0, 0, 0);
 }
 .btn-color-2 {
-    background: none;
+  background: none;
 }
 
 .btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1 rem solid;
+  border: rgb(255, 255, 255) 0.1 rem solid;
 }
 
 .btn-container {
-    gap: 1rem;
+  gap: 1rem;
+}
+
+/* SOBRE MIM */
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-containers {
+  padding: 1.5rem;
+  flex: 1;
+  background-color: white;
+  border-radius: 2rem;
+  border: rgb(53 53 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section-pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+/* SECAO DE EXPERIENCIAS */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
+/* SECAO DE PROJETOS */
+
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+/* SECAO DE CONTATO */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+
+}
+
+.contact-icon {
+  cursor: default;
+  
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+
+/* SECAO FOOTER */
+
+footer{
+  height: 26vh;
+  margin: 0 1rem;
+
+}
+
+footer p{
+  text-align: center;
 }
